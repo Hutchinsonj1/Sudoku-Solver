@@ -24,7 +24,7 @@ def possible(row, column, number):
     for i in range(0,9):
         if grid[i][column] == number:
             return False
-
+  
     #Is the number appearing in the given square? (divide the current number by 3, then round it down to the closest number)
     x0 = (column // 3) * 3
     y0 = (row // 3) * 3

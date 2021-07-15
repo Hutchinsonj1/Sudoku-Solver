@@ -59,5 +59,3 @@ solve()
     # We want to start the 0 section from row 0 
     # the 1st section from row 3 
     # and the 2nd section from row 6
-
-# IS THE number appearing in the given square: (divide the current number by 3, then round it down to the closest number)
